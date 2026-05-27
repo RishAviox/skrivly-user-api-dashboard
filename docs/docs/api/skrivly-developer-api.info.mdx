@@ -1,0 +1,104 @@
+---
+id: skrivly-developer-api
+title: "Skrivly Developer API"
+description: "The Skrivly Developer API lets you programmatically interact with your organization's documents, signers, and workflows using a Developer API Key."
+sidebar_label: Introduction
+sidebar_position: 0
+hide_title: true
+custom_edit_url: null
+---
+
+import ApiLogo from "@theme/ApiLogo";
+import Heading from "@theme/Heading";
+import SchemaTabs from "@theme/SchemaTabs";
+import TabItem from "@theme/TabItem";
+import Export from "@theme/ApiExplorer/Export";
+
+<span
+  className={"theme-doc-version-badge badge badge--secondary"}
+  children={"Version: 1.0.0"}
+>
+</span>
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Skrivly Developer API"}
+>
+</Heading>
+
+
+
+The Skrivly Developer API lets you programmatically interact with your organization's documents, signers, and workflows using a Developer API Key.
+
+## Authentication
+All endpoints require a Bearer token (your Developer API Key):
+```
+Authorization: Bearer YOUR_API_KEY
+```
+Get your API key from the Developer Dashboard → **Developer API Keys** section.
+
+## Workflow Overview
+
+Sending a document for signing requires three steps:
+
+1. **Create Document** – Upload the PDF
+2. **Add Signers** – Define who needs to sign
+3. **Send for Signing** – Trigger email notifications to signers
+
+
+<div
+  style={{"marginBottom":"2rem"}}
+>
+  <Heading
+    id={"authentication"}
+    as={"h2"}
+    className={"openapi-tabs__heading"}
+    children={"Authentication"}
+  >
+  </Heading><SchemaTabs
+    className={"openapi-tabs__security-schemes"}
+  >
+    <TabItem
+      label={"HTTP: Bearer Auth"}
+      value={"BearerAuth"}
+    >
+      
+      
+      Use your Developer API Key as the Bearer token.
+      
+      <div>
+        <table>
+          <tbody>
+            <tr>
+              <th>
+                Security Scheme Type:
+              </th><td>
+                http
+              </td>
+            </tr><tr>
+              <th>
+                HTTP Authorization Scheme:
+              </th><td>
+                bearer
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </TabItem>
+  </SchemaTabs>
+</div><div
+  style={{"display":"flex","flexDirection":"column","marginBottom":"var(--ifm-paragraph-margin-bottom)"}}
+>
+  <h3
+    style={{"marginBottom":"0.25rem"}}
+  >
+    Contact
+  </h3><span>
+    Skrivly Developer Support: 
+  </span><span>
+    URL: [https://skrivly.com](https://skrivly.com)
+  </span>
+</div>
+      

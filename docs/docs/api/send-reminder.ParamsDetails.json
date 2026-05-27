@@ -1,0 +1,1 @@
+{"parameters":[{"name":"organization_doc_reference_id","in":"query","required":true,"schema":{"type":"string"},"example":"org-doc-123"}]}

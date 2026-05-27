@@ -1,0 +1,1 @@
+{"parameters":[{"name":"reference_id","in":"path","required":true,"schema":{"type":"string"},"example":"doc-456","description":"Document reference ID"}]}

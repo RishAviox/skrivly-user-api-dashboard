@@ -1,0 +1,1 @@
+{"parameters":[{"name":"organisation_doc_reference_id","in":"query","required":true,"schema":{"type":"string"},"example":"gAAAAABpqcg1...","description":"ORG_DOC_REF_ID from the Create Document response"},{"name":"doc_reference_id","in":"query","required":true,"schema":{"type":"string"},"example":"gAAAAABpqcgx...","description":"DOC_REF_ID from the Create Document response"}]}

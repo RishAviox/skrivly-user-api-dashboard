@@ -1,0 +1,1 @@
+{"responses":{"200":{"description":"Signer status updated"},"401":{"description":"Unauthorized"},"404":{"description":"Signer or document not found"}}}

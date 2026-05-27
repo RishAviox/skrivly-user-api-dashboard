@@ -1,0 +1,1 @@
+{"responses":{"200":{"description":"Organisation reference ID returned successfully","content":{"application/json":{"schema":{"type":"object","properties":{"encrypted_reference_id":{"type":"string","description":"The encrypted reference ID for the organisation","example":"gAAAAABppdYi..."}}}}}},"401":{"description":"Unauthorized – invalid or missing API key"}}}

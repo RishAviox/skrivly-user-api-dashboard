@@ -1,0 +1,1 @@
+{"title":"Body","body":{"required":true,"content":{"application/json":{"schema":{"type":"object","properties":{"status":{"type":"string","enum":["signed","pending"],"example":"signed"},"signer_reference_id":{"type":"string","example":"signer-789"}},"title":"SignerUpdate"},"example":{"status":"signed","signer_reference_id":"signer-789"}}}}}
